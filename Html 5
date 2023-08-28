@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>css box model</title>
+        <style>
+            .container{
+                width: 1000px;
+                height: 500px;
+                border: 1px solid red;
+                margin: 0 auto;
+            }
+            .column{
+                width: 146px;
+                height: 250px;
+                background-color: rgb(190, 147, 231);
+                float: left;
+                border: 2px solid black;
+                padding: 40px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3 style="text-align: center; font-size: 30px;">box model</h3>
+            <div class="column">this is my first box</div>
+            <div class="column">this is my second box</div>
+            <div class="column">this is my third box</div>
+        </div>
+    </body>
+</html>
