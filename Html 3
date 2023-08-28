@@ -1,0 +1,92 @@
+<title>
+            responsive form by alam_mahnoor
+        </title>
+        <style>
+            h1{
+                color: blue;
+            }
+            .fa{
+                color: blue;
+            }
+        </style>
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <form><fieldset>
+            <legend>
+                <h1>Student Registration form</h1>
+            </legend>
+            <div>
+                    <i class="fa fa-user"></i>
+                    FIRST NAME : <input type="text" placeholder="enter your first name" class="name">
+            </div>
+            <br>
+            <div>
+                <i class="fa fa-user"></i>
+                LAST NAME : <input type="text" placeholder="enter your last name" class="name">
+            </div>
+            <br>
+            <div>
+                <i class="fa fa-envelope email"></i>
+                E-MAIL : <input type="email" placeholder="enter your email" class="email">
+            </div>
+            <br>
+            <div>
+                <i class="fa fa-id-card"></i>
+                ROLL-NO. : <input type="" placeholder="enter your roll number" class="roll-no.">
+            </div>
+            <br>
+            <div>
+                GENDER : <input type="radio" class="radio-button" name="gender">
+                <i class="fa fa-male"></i>
+                <label>Male</label>
+                <input type="radio" class="radio-button" name="gender">
+                <i class="fa fa-female"></i>
+                <label>Female</label>
+            </div>
+            <br>
+            <div>
+                BRANCH : 
+                <input type="radio" class="radio-button" name="branch">
+                <label>CSE</label>
+                <input type="radio" class="radio-button" name="branch">
+                <label>IT</label>
+            </div>
+            <br>
+            <div>
+                Interested : 
+                <input type="checkbox" class="check-button">
+                <label>python</label>
+                <input type="checkbox" class="check-button">
+                <label>java</label>
+                <input type="checkbox" class="check-button">
+                <label>web development</label>
+                <input type="checkbox" class="check-button">
+                <label>AI/MI</label>
+                <input type="checkbox" class="check-button">
+                <label>C</label>
+                <input type="checkbox" class="check-button">
+                <label>C++</label>
+                <input type="checkbox" class="check-button">
+                <label>blockchain</label>
+            </div>
+
+            <div>
+                <h4><i class="fa fa-commenting"></i>message box :</i></h4>
+                <textarea name="message" cols="60" rows="5" placeholder="type your message :"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="check-button">
+                <label>I accept all terms and condition</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>
